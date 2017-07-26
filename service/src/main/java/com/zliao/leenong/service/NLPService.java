@@ -1,4 +1,4 @@
-package com.zliao.leenoog.service;
+package com.zliao.leenong.service;
 
 
 import com.hankcs.hanlp.HanLP;

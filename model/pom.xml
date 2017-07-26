@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>parent</artifactId>
-        <groupId>com.zliao.leenoog</groupId>
+        <groupId>com.zliao.leenong</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>leenoog-model</artifactId>
+    <artifactId>leenong-model</artifactId>
 
 </project>

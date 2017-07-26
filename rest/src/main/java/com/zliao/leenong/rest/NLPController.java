@@ -1,6 +1,6 @@
-package com.zliao.leenoog.rest;
+package com.zliao.leenong.rest;
 
-import com.zliao.leenoog.service.NLPService;
+import com.zliao.leenong.service.NLPService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

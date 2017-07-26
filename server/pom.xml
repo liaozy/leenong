@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>parent</artifactId>
-        <groupId>com.zliao.leenoog</groupId>
+        <groupId>com.zliao.leenong</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>leenoog-server</artifactId>
+    <artifactId>leenong-server</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.zliao.leenoog</groupId>
-            <artifactId>leenoog-rest</artifactId>
+            <groupId>com.zliao.leenong</groupId>
+            <artifactId>leenong-rest</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

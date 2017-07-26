@@ -1,4 +1,4 @@
-package com.zliao.leenoog.rest;
+package com.zliao.leenong.rest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,8 +22,8 @@ public class DefaultController {
     @RequestMapping(method= RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public String hello (){
-        logger.info("this is leenoog server");
-        return "Hi, this is leenoog server";
+        logger.info("this is leenong server");
+        return "Hi, this is leenong server";
 
 
     }
