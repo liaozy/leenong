@@ -8,7 +8,28 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <build>
+    <resources>
+        <resource>
+            <directory>src/main/resources</directory>
+            <filtering>true</filtering>
+            <includes>
+                <include>**/*.xml</include>
+                <include>**/*.aiml</include>
+                <include>**/*.yaml</include>
+                <include>**/*.properties</include>
 
+                <include>**/*.html</include>
+                <include>**/*.js</include>
+                <include>**/*.css</include>
+                <include>**/*.jpg</include>
+                <include>**/*.gif</include>
+                <include>**/*.png</include>
+                <include>**/*.swf</include>
+            </includes>
+        </resource>
+    </resources>
+    </build>
     <artifactId>leenong-rest</artifactId>
     <dependencies>
         <dependency>
